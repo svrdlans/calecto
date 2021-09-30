@@ -1,6 +1,7 @@
 defmodule Calecto.NaiveDateTime do
   require Calendar.NaiveDateTime
   import Calecto.Utils
+  use Ecto.Type
 
   @moduledoc """
   Calendar NaiveDateTime for Ecto

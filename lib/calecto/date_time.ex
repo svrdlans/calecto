@@ -1,6 +1,7 @@
 defmodule Calecto.DateTime do
   require Calendar.DateTime
   import Calecto.Utils
+  use Ecto.Type
 
   @moduledoc """
   Calendar DateTime for Ecto for representing datetimes in any timezone.

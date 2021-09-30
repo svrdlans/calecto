@@ -1,6 +1,7 @@
 defmodule Calecto.Date do
   require Calendar.Date
   import Calecto.Utils
+  use Ecto.Type
 
   @moduledoc """
   Calendar Date for Ecto
